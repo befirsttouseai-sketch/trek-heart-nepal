@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1C2522;
+    background-color: #FBFBF9;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom utility classes for Trek Heart Nepal palette */
+.text-emerald-brand {
+  color: #0E4D3E;
+}
+.bg-emerald-brand {
+  background-color: #0E4D3E;
+}
+.bg-emerald-brand-dark {
+  background-color: #082F26;
+}
+.border-emerald-brand {
+  border-color: #0E4D3E;
+}
+
+.text-gold-brand {
+  color: #C59B27;
+}
+.bg-gold-brand {
+  background-color: #C59B27;
+}
+.border-gold-brand {
+  border-color: #C59B27;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F2EFE9;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4BFB5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0E4D3E;
+}

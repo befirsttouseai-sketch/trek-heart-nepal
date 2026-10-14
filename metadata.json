@@ -1,0 +1,6 @@
+{
+  "name": "Trek Heart Nepal",
+  "description": "Authentic Himalayan trekking agency offering 100% eco-friendly, locally guided private treks, helicopter tours, safari adventures, and custom expeditions across Nepal, Bhutan, Tibet, and India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
